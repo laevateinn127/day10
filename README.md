@@ -92,9 +92,23 @@ print(t6)
 ('z',)
 ```
 ```
+shoplist1 = ['牛奶', '蛋', '咖啡豆', '西瓜', '鳳梨']
+print('購物清單shoplist1為')
+print(shoplist1)
+購物清單shoplist1為
+['牛奶', '蛋', '咖啡豆', '西瓜', '鳳梨']
 list使用[],
 shoplist2 = ['牛奶', '蛋', '咖啡豆', '西瓜', '鳳梨']
 print('顯示shoplist2[0]為',shoplist2[0])
-
+顯示shoplist2[0]為 牛奶
 shoplist3 = ['牛奶', '蛋', '咖啡豆', '西瓜', '鳳梨']#以影號框住為一字元
 print('購物清單shoplist3的長度為', len(shoplist3))
+購物清單shoplist3的長度為 5
+
+shoplist = ['牛奶', '蛋', '咖啡豆', '西瓜', '鳳梨']
+shoplist[1] = '皮蛋'
+print("執行 shoplist[1] = '皮蛋' 後")
+print(shoplist)
+執行 shoplist[1] = '皮蛋' 後
+['牛奶', '皮蛋', '咖啡豆', '西瓜', '鳳梨'
+```
